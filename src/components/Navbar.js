@@ -1,8 +1,6 @@
 import logo from '../assets/images/logo.png';
 import {useState} from 'react';
 import './NavbarStyles.css';
-import Hamburger from "../assets/images/hamburger.png";
-import Close from "../assets/images/close.png";
 
 
 function Navbar() {
