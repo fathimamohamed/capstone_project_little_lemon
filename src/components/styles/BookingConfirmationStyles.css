@@ -1,0 +1,23 @@
+.confirmation-container {
+    background-color: rgb(237,239,238);
+    padding-bottom: 10px;
+}
+.confirmation-container img {
+    width:100%;
+    height:470px;
+}
+.confirmation-heading {
+    text-align: center;
+    font-family: "Markazi Text", sans-serif;
+    font-size: 22pt;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.confirmation-section {
+    max-width:600px;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}

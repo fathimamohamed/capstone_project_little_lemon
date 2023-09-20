@@ -1,7 +1,8 @@
 import logo from '../assets/images/logo.png';
 import {useState} from 'react';
-import './NavbarStyles.css';
-
+import './styles/NavbarStyles.css';
+import { Link } from "react-router-dom";
+import menucard from "../assets/images/MenuCard.PNG"
 
 function Navbar() {
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -20,22 +21,22 @@ function Navbar() {
             <div className="links">
                 <ul id="navbar" className={navbarOpen ? "#navbar active" : "#navbar"}>
                     <li>
-                        <a className="active" href="index.html">Home</a>
+                        <Link to="/" ><a className="active" href="/">Home</a></Link>
                     </li>
                     <li>
-                        <a href="index.html">About</a>
+                        <Link to='/aboutpage' ><a href="/aboutpage">About</a></Link>
                     </li>
                     <li>
-                        <a href="index.html">Menu</a>
+                        <Link to='/menupage' ><a href="/menupage">Menu</a></Link>
                     </li>
                     <li>
-                        <a href="index.html">Reservations</a>
+                        <Link to="/booking" ><a href="/booking">Reservations</a></Link>
                     </li>
                     <li>
-                        <a href="index.html">Order Online</a>
+                        <Link to="/orderpage" ><a href="/orderpage">OrderOnline</a></Link>
                     </li>
                     <li>
-                        <a href="index.html">Login</a>
+                        <Link to="/loginpage" ><a href="/loginpage">Login</a></Link>
                     </li>
                 </ul>
             </div>
