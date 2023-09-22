@@ -37,6 +37,9 @@
     margin-top:25px;
     background-color: #F4CE14;
 }
+.grid-container button:hover {
+    cursor: pointer;
+}
 .hero-image {
     width: 375px;
     height: 450px;

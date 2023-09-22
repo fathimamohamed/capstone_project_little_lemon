@@ -18,7 +18,9 @@ main {
     background-color: #F4CE14;
     float:right;
 }
-
+.Heading button:hover {
+  cursor: pointer;
+}
 
 .card .header,
 .card p,

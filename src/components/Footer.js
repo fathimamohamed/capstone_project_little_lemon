@@ -1,7 +1,6 @@
 import './styles/FooterStyles.css';
 import { Link } from "react-router-dom";
 import footerLogo from "../assets/images/footer-logo.png";
-import menucard from "../assets/images/MenuCard.PNG";
 
 function Footer() {
     return (
@@ -18,11 +17,11 @@ function Footer() {
                     <h3>NAVIGATION</h3>
                     <ul>
                         <li><Link className="text-color" to="/">Home</Link></li>
-                        <li><a className="text-color" href="#about_section">About</a></li>
+                        <li><Link className="text-color" to="/aboutpage">About</Link></li>
                         <li><Link className='text-color' to="/menupage">Menu</Link></li>
                         <li><Link className="text-color" to="/booking">Reservations</Link></li>
                         <li><Link className="text-color" to="/orderpage">Order Online</Link></li>
-                        <li><Link className="text-color" to="/login">Login</Link></li>
+                        <li><Link className="text-color" to="/loginpage">Login</Link></li>
                     </ul>
                 </section>
                 <section className='footer-item'>
